@@ -6,8 +6,8 @@ function Skills() {
         <h1 className='text-lg md:text-2xl text-gray-200 font-semibold md:font-bold'>SKILLS</h1>
         <div className='pt-4 flex flex-col md:flex-row md:justify-around gap-2 md:gap-8 px-1 md:px-6'>
 {/* Web section */}
-            <div className='w-full md:w-1/2  max-md:bg-[url("/images/skills_img1.png")] bg-cover bg-no-repeat rounded-sm md:hover:-translate-y-2 transition-transform duration-300'>
-            <div className=' md:bg-[#404040] bg-black max-md:bg-opacity-70 p-3 md:p-4 rounded-sm'>
+            <div className='w-full md:w-1/2 max-md:bg-[url("/images/skills_img1.png")] bg-cover bg-no-repeat rounded-sm md:hover:-translate-y-2 transition-transform duration-300'>
+            <div className=' md:bg-[#404040] h-full bg-black max-md:bg-opacity-70 p-3 md:p-4 rounded-sm'>
                 <h2 className='text-base md:text-lg font-semibold text-gray-200'>Web Development</h2>
                 <div className='flex h-full items-center'>
                     <div className='text-gray-300 md:mt-4 ml-4 w-full md:w-1/3'>
@@ -44,8 +44,8 @@ function Skills() {
             </div>
             </div>
 {/* Android section */}
-            <div className='w-full md:w-1/2 max-md:bg-[url("/images/skills_img2.png")] bg-cover bg-no-repeat rounded-sm md:hover:-translate-y-2 transition-transform duration-300'>
-            <div className=' p-3 md:p-4 md:bg-[#404040] bg-black max-md:bg-opacity-70 rounded-sm'>
+            <div className='w-full  md:w-1/2 max-md:bg-[url("/images/skills_img2.png")] bg-cover bg-no-repeat rounded-sm md:hover:-translate-y-2 transition-transform duration-300'>
+            <div className=' p-3 h-full md:p-4 md:bg-[#404040] bg-black max-md:bg-opacity-70 rounded-sm'>
                 <h2 className='text-base md:text-lg font-semibold text-gray-200'>Android Development</h2>
                 <div className='flex h-full items-center'>
                     <div className='text-gray-300 md:mt-4 ml-4 w-full md:w-1/3'>

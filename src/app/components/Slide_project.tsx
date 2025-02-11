@@ -32,7 +32,7 @@ function Slide_project({projects}:{projects:Project[]}) {
         renderArrowPrev={(onClickHandler,hasPrev,label)=>
           hasPrev&&(
             <button type='button' onClick={onClickHandler} aria-label={label}
-                    className='absolute z-10 text-gray-400 h-full ml-1 text-2xl'>
+                    className='hidden md:block absolute z-10 text-gray-400 h-full ml-1 text-2xl'>
               &lt;
             </button>
           )
@@ -40,7 +40,7 @@ function Slide_project({projects}:{projects:Project[]}) {
         renderArrowNext={(onClickHandler,hasNext,label)=>
           hasNext&&(
             <button type='button' onClick={onClickHandler} aria-label={label}
-                    className='absolute z-10 right-0 top-0 text-gray-400 h-full mr-1 text-2xl'>
+                    className='hidden md:block absolute z-10 right-0 top-0 text-gray-400 h-full mr-1 text-2xl'>
               &gt;
             </button>
           )

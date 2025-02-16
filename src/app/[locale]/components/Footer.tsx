@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 function Footer() {
+    const t=useTranslations('Footer');
   return (
     <div className='flex flex-col' id='footer'>
 {/* section 1 */}
@@ -14,16 +16,16 @@ function Footer() {
         </div>
         <div className='bg-[#202020] flex flex-col md:flex-row justify-center pt-14 pb-14'>
             <div className='text-center text-sm md:text-base text-gray-200 w-full md:w-1/3 my-6 md:my-0'>
-                <p className='font-semibold text-lg'>Email</p>
+                <p className='font-semibold text-lg'>{t('email')}</p>
                 <p className='mt-1 md:mt-4'>mirshadrehman009@gmail.com</p>
             </div>
             <div className='text-center text-sm md:text-base text-gray-200 w-full md:w-1/3 my-6 md:my-0'>
-                <p className='font-semibold text-lg'>Mobile</p>
-                <p className='mt-1 md:mt-4'>7002390763</p>
+                <p className='font-semibold text-lg'>{t('ph')}</p>
+                <p className='mt-1 md:mt-4'>{t('ph-no')}</p>
             </div>
             <div className='text-center text-sm md:text-base text-gray-200 w-full md:w-1/3 my-6 md:my-0'>
-                <p className='font-semibold text-lg'>Address</p>
-                <p className='mt-1 md:mt-4'>Assam, India</p>
+                <p className='font-semibold text-lg'>{t('add')}</p>
+                <p className='mt-1 md:mt-4'>{t('add-cont')}</p>
             </div>
         </div>
        

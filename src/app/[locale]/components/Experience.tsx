@@ -1,10 +1,12 @@
 import React from 'react'
 import Experience_data from '../data/Experience_data'
+import { useTranslations } from 'next-intl'
 
 function Experience() {
+  const t=useTranslations('Experience');
   return (
     <div className='pt-6 md:pt-12 pb-2 md:pb-4 px-2 md:px-8 md:hover:-translate-y-2 transition-transform duration-300'>
-        <h1 className='text-lg md:text-2xl text-gray-200 font-semibold md:font-bold'>EXPERIENCE</h1>
+        <h1 className='text-lg md:text-2xl text-gray-200 font-semibold md:font-bold'>{t('title')}</h1>
         {Experience_data.map((experience)=>(
             <div key={experience.id} className='mt-4 mx-1 md:mx-6 rounded-sm bg-[url("/images/experience_background.jpg")] bg-no-repeat bg-cover text-gray-300'>
             <div className='bg-black bg-opacity-60  p-4 '>

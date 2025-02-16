@@ -1,0 +1,56 @@
+{
+    "Header":{
+        "name":"Mirshad Ashfaqur Rehman",
+        "home":"Home",
+        "projects":"Projects",
+        "resume":"Resume",
+        "contact":"Contact"
+    },
+    "About":{
+        "title-1":"Hi, myself ",
+        "title-2":"Mirshad",
+        "content":"I am a computer science professional with a Master of Computer Application degree from Dibrugarh University(2024) and a B.Sc. in Mathematics from Jorhat Institute of Science and Technology(2021). Skilled in C, python, JavaScript, Kotlin and database management, specializes in Web and Android development. I have built DoctorQuick, a medical service app (locally), also have knowledge in ReactJS and tailwindcss, fastApi for the backend and currently learning Next.js with TypeScript. I am also learning PostgreSQL for the data handling."
+    },
+    "Skills":{
+        "title":"SKILLS",
+        "web-title":"Web Development",
+        "android-title":"Android Development",
+        "frontend":"FRONTEND",
+        "backend":"BACKEND",
+        "database":"DATABASE"
+    },
+    "Project":{
+        "title":"PROJECTS",
+        "button-1":"all projects",
+        "button-2":"Web",
+        "button-3":"Android"
+    },
+    "Experience":{
+        "title":"EXPERIENCE"
+    },
+    "Education":{
+        "title":"EDUCATION",
+        "pg":{
+            "title":"Post Graduation",
+            "institute":"Dibrugarh University",
+            "course":"Masters in Computer Application",
+            "grade":"Grade : A+",
+            "date":"Aug 2022 - June 2024"
+        },
+        "ug":{
+            "title":"Graduation",
+            "institute":"Jorhat Institute of Science & Technology",
+            "course":"B.Sc in Mathematics",
+            "grade":"Division : 1st class",
+            "date":"Jul 2017 - Jul 2020"
+        }
+    },
+    "Footer":{
+        "email":"Email",
+        "ph":"Mobile",
+        "ph-no":"7002390763",
+        "add":"Address",
+        "add-cont":"Assam, India"
+    }
+    
+}

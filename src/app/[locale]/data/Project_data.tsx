@@ -104,6 +104,21 @@ const Project_data: Project[]=[
         database:"PostgreSQL",
         background:"/images/studentrecord_background.jpg",
         image:"/images/",
+    },
+    {
+        id:7,
+        organization:"self project",
+        start_date:"April 2025",
+        end_date:"April 2025",
+        catagory: "Web Application",
+        title: "MR Player",
+        description:"A Webapp for Music Player where user can add music from their local storage and enjoy it without any ads, looking forward to add a music collection so that user don't have to do that locally",
+        status:"on development",
+        frontend:"NExtJS - jsx, TypeScript, TailwindCSS",
+        backend:"No backend",
+        database:"no database",
+        background:"/images/MRplayerBack.jpg",
+        image:"/images/MRplayer(L).png",
     }
 ]
 

@@ -71,7 +71,7 @@ function Slide_project({projects}:{projects:Project[]}) {
                 </div>
 {/* Body-right */}
                 <div className='w-full md:w-1/2 grid items-center justify-center'>
-                  <img src={project.image} alt="screenshot" className=''/>
+                  <img src={project.image} alt="screenshot" className='h-56'/>
                 </div>
               </div>
             </div>
